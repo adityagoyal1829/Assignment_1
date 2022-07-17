@@ -1,0 +1,185 @@
+*{
+margin:0;
+padding:0;
+font-family:monospace;
+font-size: 18px;;
+}
+
+nav{
+width: 100%;
+height: 50px;
+background-color: #0005;
+line-height: 50px;
+}
+nav ul{
+float: right;
+margin-right: 30px;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+transition:0.7s;
+}
+nav ul li:hover{
+background-color:tomato;
+}
+nav ul li a{
+text-decoration: none;
+color: #fff;
+padding: 30px;
+}
+
+
+
+.hero-image {
+background-image:url("school.jpeg");
+position: relative;
+height: 60%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.hero-text {
+text-align: center;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rgb(255, 255, 255);
+}
+
+.hero-text button {
+border: none;
+padding: 10px 25px;
+color: black;
+background-color: tomato;
+text-align: center;
+cursor: pointer;
+}
+
+.hero-text button:hover {
+background-color: red;
+color: white;
+}
+
+.buttonknow{
+    text-decoration: none;
+    color:black;
+}
+.buttonknow:hover{
+    color:white;
+}
+
+
+thead{
+    height: 35mm;;
+}
+
+body .tb{
+    width: 50%;
+    height: 100vh;
+    margin-left:50px;
+    display: flex;
+}
+.content-table{
+    border-collapse:collapse;
+    margin:25px;
+}
+
+.content-table thead tr{
+    background-color:tomato;
+    color:white;
+    text-align: center;   
+    font-weight: bold;
+}
+.content-table th , .content-table td{
+       padding: 14px 17px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid grey;
+}
+
+
+.campus{
+    margin-left: 100px;
+    width: 20%;
+}
+
+.framei1{
+    width: 430%;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.vd{
+    border: 2px solid black;
+
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid azure;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: tomato;
+  color:black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:red;
+  color: white;
+}
+
+.container {
+  border-radius:10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.form-head{
+    border: 2px solid tomato;
+    width: 50%;
+    margin: 25px auto ;
+}
+
+
+footer{
+    width:100%;
+    background-color: black;
+    padding:  20px 50px;
+    display: flex;
+    justify-content:center;
+}
+
+footer .icons{
+    display: flex;
+    align-items:center;
+    margin:10px;
+}
+footer .icons li{
+    list-style: none;
+    margin-top: 18px;
+}
+
+footer .icons li a{
+   color:#fff;
+   margin:5px 10px;
+}
+
+footer p{
+    color:#fff;
+    margin-top:15px;
+}
